@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+  </head>
+  <body>
+
+    <header class="container header">
+      <nav>
+        <ul class="header__menu">
+          <li>
+            <a class="header__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="header__link" href="#featured">Work</a>
+          </li>
+          <li>
+            <a class="header__link" href="#contact">Contact</a>
+          </li>
+          <li class="header__line"></li>
+          <li>
+            <button class="header__sun" id="theme-toggle">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+              </svg>              
+            </button>
+          </li>
+          <li>
+            <a class="header__resume main__button" href="#">Resume</a>
+          </li>
+        </ul>
+
+        <!-- Mobile Icon -->
+        <button class="header__bars">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+          </svg>          
+        </button>
+      </nav>
+    </header>
+
+    <!-- START - Mobile Navigations -->
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a class="mobile-nav__link" href="#about">About</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#featured">Work</a>
+          </li>
+          <li>
+            <a class="mobile-nav__link" href="#contact">Contact</a>
+          </li>
+          <li class="mobile-nav__line"></li>
+          <li>
+            <button class="mobile-nav__sun" id="theme-toggle">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 3v2.25m6.364.386-1.591 1.591M21 12h-2.25m-.386 6.364-1.591-1.591M12 18.75V21m-4.773-4.227-1.591 1.591M5.25 12H3m4.227-4.773L5.636 5.636M15.75 12a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0Z" />
+              </svg>              
+            </button>
+          </li>
+          <li>
+            <a class="mobile-nav__button main__button" href="">Resume</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <!-- END - Mobile Navigations -->
+
+    <main>
+      <section class="container hero">
+        <img class="hero__image" src="/hero.png" alt="Profile Picture">
+        <h2 class="hero__subtitle">Hi, I'm VJ</h2>
+        <h1 class="hero__title">Freelance and <br> Full-Stack Web Developer</h1>
+        <p class="hero__description">I'm passionate about building <strong>beautiful websites</strong>. Even if design isn't my strongest suit, I focus on <strong>writing clean code</strong>, creating solid structure, and continuously <strong>improving my UI skills</strong>.</p>        
+        <a class="hero__button main__button" href="#">Reach Out</a>
+      </section>
+
+      <section class="container about section" id="about">
+        <div class="about__content">
+          <h2 class="about__title">About</h2>
+          <p class="about__description">Hello! I'm VJ, a passionate <strong>Freelance Full-Stack Developer</strong>, I love solving problems, learning new tools, and building websites that are clean, responsive, and functional.</p>
+          <p class="about__description">Studied at <strong>Kolehiyo ng Lungsod ng Dasmariñas</strong>, where I built a solid foundation in programming and problem-solving.</p>
+          <p class="about__description">I don't have formal industry experience yet, I've worked on <strong>personal and freelance projects</strong> that helped me build real-world skills in both frontend and backend development.</p>
+          <p class="about__description">While I'm still growing in my journey, others have noticed my strengths in programming. I genuinely enjoy what I do and continuously look for opportunities to <strong>learn and grow</strong>.</p>
+          <hr class="about__hr">
+          <h3 class="about__subtitle">Tech-Stack</h3>
+          <div class="about__ul-container">
+            <ul class="about__ul">
+              <li class="about__list">HTML</li>
+              <li class="about__list">CSS</li>
+              <li class="about__list">JavaScript</li>
+            </ul>
+            <ul class="about__ul">
+              <li class="about__list">PHP</li>
+              <li class="about__list">React JS</li>
+              <li class="about__list">Bootstrap CSS</li>
+            </ul>
+          </div>
+        </div>
+        <div class="about__wrapper">
+          <img class="about__image lazy loading" src="https://fakeimg.pl/768x854" data-src="/about.jpg" alt="Profile Picture">
+        </div>
+      </section>
+
+      <section class="container featured section" id="featured">
+        <h3 class="featured__subtitle">Featured Project</h3>
+        <div class="featured__wrapper">
+          <h2 class="featured__title">Slaying The Dragon</h2>
+          <a class="featured__link" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.19 8.688a4.5 4.5 0 0 1 1.242 7.244l-4.5 4.5a4.5 4.5 0 0 1-6.364-6.364l1.757-1.757m13.35-.622 1.757-1.757a4.5 4.5 0 0 0-6.364-6.364l-4.5 4.5a4.5 4.5 0 0 0 1.242 7.244" />
+            </svg>          
+          </a>
+        </div>
+        <p class="featured__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, consectetur! Culpa nemo alias, similique, perferendis excepturi praesentium laborum reiciendis fuga ullam doloremque consectetur. Impedit soluta neque ab assumenda! Adipisci, doloribus!</p>
+        <div class="featured__info-container">
+          <div>
+            <h3 class="featured__label">Technology Used</h3>
+            <ul class="featured__tech-used">
+              <li class="featured__info">Tailwind CSS</li>
+              <li class="featured__info">React JS</li>
+              <li class="featured__info">React-Hook-Form</li>
+              <li class="featured__info">Next JS</li>
+              <li class="featured__info">Axios</li>
+              <li class="featured__info">Supabase</li>
+              <li class="featured__info">Stripe</li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="featured__label">Project Type</h3>
+            <p class="featured__info">Fullstack-Jamstack</p>
+          </div>
+          <div>
+            <h3 class="featured__label">Timeline</h3>
+            <p class="featured__info">December 2022 - Present</p>
+          </div>
+        </div>
+        <div class="featured__image-container">
+          <div class="featured__image-wrapper">
+            <img class="lazy loading" src="https://fakeimg.pl/1365x659" data-src="/featured/HERO.png" alt="Capstone Project Hero">
+          </div>
+          <div class="featured__image-wrapper">
+            <img class="lazy loading" src="https://fakeimg.pl/1365x659" data-src="/featured/MEMBERSHIP.png" alt="Capstone Project Membership">
+          </div>
+          <div class="featured__image-wrapper">
+            <img class="lazy loading" src="https://fakeimg.pl/1365x659" data-src="/featured/LOGIN PAGE.png" alt="Capstone Project Patient Login">
+          </div>
+          <div class="featured__image-wrapper">
+            <img class="lazy loading" src="https://fakeimg.pl/1365x656" data-src="/featured/STAFF PORTAL.png" alt="Capstone Project Staff Login">
+          </div>
+          <div class="featured__image-wrapper">
+            <img class="lazy loading" src="https://fakeimg.pl/1365x659" data-src="/featured/PATIENT DASHBOARD.png" alt="Capstone Project Patient Dashboard">
+          </div>
+          <div class="featured__image-wrapper">
+            <img class="lazy loading" src="https://fakeimg.pl/1365x659" data-src="/featured/ALL DOCTORS.png" alt="Capstone Project All Doctors">
+          </div>
+          <div class="featured__image-wrapper">
+            <img class="lazy loading" src="https://fakeimg.pl/1365x659" data-src="/featured/VIEWING DOCTOR'S SCHEDULE.png" alt="Capstone Project View All Doctors's Schedule">
+          </div>
+          <div class="featured__image-wrapper">
+            <img class="lazy loading" src="https://fakeimg.pl/1365x656" data-src="/featured/NURSE DASHBOARD.png" alt="Capstone Project Nurse Dashboard">
+          </div>
+        </div>
+      </section>
+
+      <section class="container work section">
+        <h2 class="work__title">Projects</h2>
+        <p class="work__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta, pariatur. Veniam harum sit, rerum ab placeat fugit eos cumque nihil officia nulla hic architecto illum culpa ratione, voluptatum dicta aut!</p>
+        
+        <div class="work__project-container">
+          <!-- Project 1 -->
+          <h3 class="work__project-title">Wax Motif</h3>
+          <div class="work__image-wrapper work__image1">
+            <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/projects/waxmoney.png" alt="Wax Motif Website">
+          </div>
+          <div class="work__project work__content1">
+            <h3 class="work__project-subtitle">Wax Motif</h3>
+            <p class="work__project-description1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, porro id laboriosam dicta itaque nulla eum veritatis voluptatibus</p>
+            <p class="work__project-description2">Aut accusantium tenetur eos magni odit nostrum, vitae alias dolores id, a porro. Pariatur voluptas ullam eveniet aperiam, corrupti a minima!</p>
+            <a class="work__project-button main__button" href="#">Website</a>
+          </div>
+  
+          <!-- Project 2 -->
+          <h3 class="work__project-title">Draze Force</h3>
+          <div class="work__image-wrapper work__image2">
+            <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/projects/drazeforce.png" alt="Draze Force Website">
+          </div>
+          <div class="work__project work__content2">
+            <h3 class="work__project-subtitle">Draze Force</h3>
+            <p class="work__project-description1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, porro id laboriosam dicta itaque nulla eum veritatis voluptatibus</p>
+            <p class="work__project-description2">Aut accusantium tenetur eos magni odit nostrum, vitae alias dolores id, a porro. Pariatur voluptas ullam eveniet aperiam, corrupti a minima!</p>
+            <a class="work__project-button main__button" href="#">Website</a>
+          </div>
+  
+          <!-- Project 3 -->
+          <h3 class="work__project-title">Artren</h3>
+          <div class="work__image-wrapper work__image3">
+            <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/projects/artren.png" alt="Artren Website">
+          </div>
+          <div class="work__project work__content3">
+            <h3 class="work__project-subtitle">Artren</h3>
+            <p class="work__project-description1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, porro id laboriosam dicta itaque nulla eum veritatis voluptatibus</p>
+            <p class="work__project-description2">Aut accusantium tenetur eos magni odit nostrum, vitae alias dolores id, a porro. Pariatur voluptas ullam eveniet aperiam, corrupti a minima!</p>
+            <a class="work__project-button main__button" href="#">Website</a>
+          </div>
+  
+          <!-- Project 4 -->
+          <h3 class="work__project-title">Platform Pro</h3>
+          <div class="work__image-wrapper work__image4">
+            <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/projects/platformpro.png" alt="Platform Pro Website">
+          </div>
+          <div class="work__project work__content4">
+            <h3 class="work__project-subtitle">Platform Pro</h3>
+            <p class="work__project-description1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, porro id laboriosam dicta itaque nulla eum veritatis voluptatibus</p>
+            <p class="work__project-description2">Aut accusantium tenetur eos magni odit nostrum, vitae alias dolores id, a porro. Pariatur voluptas ullam eveniet aperiam, corrupti a minima!</p>
+            <a class="work__project-button main__button" href="#">Website</a>
+          </div>
+  
+          <!-- Project 5 -->
+          <h3 class="work__project-title">Wallys Vegan</h3>
+          <div class="work__image-wrapper work__image5">
+            <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/projects/wallysvegan.png" alt="Wallys Vegan Website">
+          </div>
+          <div class="work__project work__content5">
+            <h3 class="work__project-subtitle">Wallys Vegan</h3>
+            <p class="work__project-description1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, porro id laboriosam dicta itaque nulla eum veritatis voluptatibus</p>
+            <p class="work__project-description2">Aut accusantium tenetur eos magni odit nostrum, vitae alias dolores id, a porro. Pariatur voluptas ullam eveniet aperiam, corrupti a minima!</p>
+            <a class="work__project-button main__button" href="#">Website</a>
+          </div>
+  
+          <!-- Project 6 -->
+          <h3 class="work__project-title">Old Portfolio</h3>
+          <div class="work__image-wrapper work__image6">
+            <img class="lazy loading" src="https://fakeimg.pl/900" data-src="/projects/portfolio.png" alt="Old Portfolio Website">
+          </div>
+          <div class="work__project work__content6">
+            <h3 class="work__project-subtitle">Old Portfolio</h3>
+            <p class="work__project-description1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, porro id laboriosam dicta itaque nulla eum veritatis voluptatibus</p>
+            <p class="work__project-description2">Aut accusantium tenetur eos magni odit nostrum, vitae alias dolores id, a porro. Pariatur voluptas ullam eveniet aperiam, corrupti a minima!</p>
+            <a class="work__project-button main__button" href="#">Website</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="container contact section" id="contact">
+        <h2 class="contact__title">Get in Contact</h2>
+        <p class="contact__description">Whether you are starting a project, have business inquiries or just want to say hi, my inbox is always open so feel free to reach out and I will get back to you as soon as possible.</p>
+        <a class="contact__button main__button" href="mailto:vjjoecatig4work@gmail.com" target="_blank">Reach Out</a>
+      </section>
+    </main>
+
+    <footer class="container footer section">
+      <h3 class="footer__title">~ Ville Joe Catig ~</h3>
+    </footer>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

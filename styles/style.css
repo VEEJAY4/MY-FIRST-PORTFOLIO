@@ -1,0 +1,118 @@
+/* GLOBAL CSS */
+
+:root {
+  --color-dark: #070a13;
+  --color-light: #f1f5f9;
+  --color-slate-400: #94a3b8;
+  --color-slate-600: #475569;
+  --color-slate-800: #1e293b;
+  --color-rose: #e11d48;
+  --color-indigo: #4f46e5;
+
+  --size-xxs: 0.5rem /* 8px */;
+  --size-xs: 0.75rem /* 12px */;
+  --size-sm: 0.875rem /* 14px */;
+  --size-base: 1rem /* 16px */;
+  --size-lg: 1.125rem /* 18px */;
+  --size-xl: 1.25rem /* 20px */;
+  --size-2xl: 1.5rem /* 24px */;
+  --size-3xl: 1.875rem /* 30px */;
+  --size-4xl: 2.25rem /* 36px */;
+  --size-5xl: 3rem /* 48px */;
+  --size-6xl: 3.75rem /* 64px */;
+  --size-7xl: 4.5rem /* 80px */;
+  --size-8xl: 6rem /* 96px */;
+  --size-9xl: 8rem /* 128px */;
+  --size-10xl: 10rem /* 160px */;
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.light-mode {
+  --color-light: #070a13;
+  --color-dark: #f1f5f9;
+  --color-slate-400: #1e293b;
+  --color-slate-600: #1e293b;
+  --color-slate-800: #1e293b;
+}
+
+body {
+  font-family: 'General Sans', sans-serif;
+  background-color: var(--color-dark);
+  color: var(--color-light);
+}
+
+img,
+svg,
+video,
+canvas,
+picture {
+  display: block;
+  max-width: 100%;
+  user-select: none;
+}
+
+button {
+  display: inline-block;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit; /* applies the color from its parent */
+}
+
+a {
+  color: var(--color-rose);
+}
+
+strong {
+  color: var(--color-indigo);
+}
+
+body::-webkit-scrollbar {
+  width: .5rem;
+}
+ 
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 0 rgba(0, 0, 0, 0);
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: var(--color-rose);
+  outline: 1px solid var(--color-rose);
+}
+
+/* ########################## */
+/* ##### RESPONSIVENESS ##### */
+/* ########################## */
+
+/* XS - Extra Small */
+/* @media (min-width: 475px) {
+} */
+
+/* SM - Small */
+/* @media (min-width: 640px) {
+} */
+
+/* MD - Medium */
+/* @media (min-width: 786px) {
+} */
+
+/* LG - Large */
+/* @media (min-width: 1024px) {
+} */
+
+/* XL - Extra Large */
+/* @media (min-width: 1280px) {
+} */
+
+/* 2XL - Extra Extra Large */
+/* @media (min-width: 1536px) {
+} */
