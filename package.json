@@ -8,6 +8,10 @@
     "build": "vite build",
     "preview": "vite preview"
   },
+  "dependencies": {
+    "@fancyapps/ui": "^5.0.36",
+    "tippy.js": "^6.3.7"
+  },
   "devDependencies": {
     "vite": "^6.0.5"
   }

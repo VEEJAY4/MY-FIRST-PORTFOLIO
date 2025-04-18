@@ -24,6 +24,28 @@
     0 0 120px -10px var(--color-steel-blue);
 }
 
+.loading {
+  filter: blur(40px) grayscale(100%);
+}
+
+.loaded {
+  filter: blur(0) grayscale(0);
+  transition: 0.7s ease-in-out;
+}
+
+.fancybox-hidden {
+  display: none;
+}
+
+.tippy-box {
+  font-size: var(--size-xs);
+  background-color: var(--color-slate-800);
+  color: var(--color-light);
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 6px 10px;
+}
+
 /* ########################## */
 /* ##### RESPONSIVENESS ##### */
 /* ########################## */
@@ -33,22 +55,10 @@
   margin-right: auto;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
-
-  /* border: 1px solid red; */
 }
 
 .section {
   margin-top: 5rem;
-  /* padding-bottom: 2rem; */
-}
-
-.loading {
-  filter: blur(40px) grayscale(100%);
-}
-
-.loaded {
-  filter: blur(0) grayscale(0);
-  transition: 0.7s ease-in-out;
 }
 
 /* XS - Extra Small */

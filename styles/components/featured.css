@@ -77,6 +77,7 @@
   top: 0;
   left: 0;
   z-index: 1;
+  pointer-events: none; /* Fixes the click issue */
   transition: background-color 0.3s;
 }
 

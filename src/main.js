@@ -1,3 +1,6 @@
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
+import "tippy.js/animations/shift-away.css";
+
 import '../styles/modern-normalize.css';
 import '../styles/style.css';
 import '../styles/components/header.css';
@@ -13,7 +16,11 @@ import '../styles/utils.css';
 import mobileNav from './utils/mobile-nav';
 import darkMode from './utils/dark-mode';
 import lazyLoading from './utils/lazy-loading';
+import fancyBox from './utils/fancy-box';
+import tippyJs from './utils/tippy';
 
 mobileNav();
 darkMode();
 lazyLoading();
+fancyBox();
+tippyJs();
