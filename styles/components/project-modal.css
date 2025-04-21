@@ -1,0 +1,78 @@
+.modal {
+  display: none;
+  width: 90vw;
+  max-width: 80rem;
+  border-radius: .375rem;
+  color: var(--color-light);  
+  background-color: var(--color-slate-800);
+}
+
+.modal__title {
+  color: var(--color-light);
+  font-size: var(--size-3xl);
+}
+
+.modal__project-card-container {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  margin: 1rem 0;
+}
+
+.modal__project-card {
+  border-radius: .375rem;
+  padding-bottom: 1rem;
+  background-color: var(--color-dark);
+  box-shadow: 0 5px 25px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.modal__project-card:hover {
+  transform: translateY(-4px) scale(1.01);
+  box-shadow: 0 15px 30px rgba(70, 130, 180, 0.4);
+}
+
+.modal__project-card img {
+  border-radius: .375rem .375rem 0 0;
+}
+
+.modal__project-card-content {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+  padding: 1rem;
+}
+
+.modal__project-favorite {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .5rem;
+}
+
+.modal__project-medal {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.modal__project-card-title {
+  font-size: var(--size-xl);
+}
+
+.modal__project-card-badges-container {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.modal__project-card-badges-container span {
+  font-size: var(--size-xs);
+  padding: .25rem .5rem ;
+}
+
+.modal__project-card-description {
+  font-size: var(--size-base);
+  color: var(--color-light); 
+  letter-spacing: 0.01em;
+  line-height: 1.2;
+}

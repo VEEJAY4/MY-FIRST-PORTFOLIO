@@ -1,7 +1,7 @@
 import { Fancybox } from "@fancyapps/ui";
 
 const fancyBox = () => {
-  // OBJECTS GALLERY
+  // FEATURED OBJECTS
   const featuredGalleryImages = [
     { src: "/featured/1_hero.png", caption: "Hero Section" },
     { src: "/featured/2_membership.png", caption: "Membership Section" },
@@ -40,6 +40,20 @@ const fancyBox = () => {
         featuredGalleryImages.map(({ src, caption }) => ({ src, caption })),
         { startIndex: index }
       );
+    });
+  });
+
+  // ALL PROJECTS MODAL
+  document.querySelectorAll("[data-src='#modal__all-projects-button']").forEach(button => {
+    button.addEventListener("click", (event) => {
+      event.preventDefault();
+
+      Fancybox.show([{ 
+        src: "#modal__all-projects",
+        type: "inline"
+      }], {
+        dragToClose: false, // prevents dragging animation
+      });
     });
   });
 };
