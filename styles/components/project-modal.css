@@ -32,8 +32,18 @@
   box-shadow: 0 15px 30px rgba(70, 130, 180, 0.4);
 }
 
-.modal__project-card img {
+.modal__project-card-image-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 13.4rem;
+}
+
+.modal__project-card-image-wrapper img {
   border-radius: .375rem .375rem 0 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: top;
 }
 
 .modal__project-card-content {
