@@ -29,8 +29,8 @@
 }
 
 .footer__socials-item {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
   fill: var(--color-slate-600);
   transition: fill 0.3s;
 }
@@ -38,3 +38,31 @@
 .footer__socials-item:hover {
   fill: var(--color-steel-blue);
 }
+
+/* XS - Extra Small */
+@media (min-width: 475px) {
+  .footer__socials-item {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+/* SM - Small */
+/* @media (min-width: 640px) {
+} */
+
+/* MD - Medium */
+/* @media (min-width: 786px) {
+} */
+
+/* LG - Large */
+/* @media (min-width: 1024px) {
+} */
+
+/* XL - Extra Large */
+/* @media (min-width: 1280px) {
+} */
+
+/* 2XL - Extra Extra Large */
+/* @media (min-width: 1536px) {
+} */
