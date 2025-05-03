@@ -153,8 +153,8 @@
 
 .tippy-box {
   font-size: var(--size-xs);
-  background-color: var(--color-slate-800);
-  color: var(--color-light);
+  background-color: #314668;
+  color: #f1f5f9;
   font-weight: bold;
   border-radius: 4px;
   padding: 6px 10px;

@@ -1,5 +1,8 @@
 .footer {
   padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .footer__title {
@@ -10,4 +13,28 @@
   text-transform: uppercase;
   letter-spacing: 0.2em;
   user-select: none;
+}
+
+.footer__socials {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer__socials-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer__socials-item {
+  width: 2.5rem;
+  height: 2.5rem;
+  fill: var(--color-slate-600);
+  transition: fill 0.3s;
+}
+
+.footer__socials-item:hover {
+  fill: var(--color-steel-blue);
 }
