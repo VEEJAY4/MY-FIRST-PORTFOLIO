@@ -59,6 +59,7 @@
   align-items: center;
   justify-content: center;
   align-items: center;
+  margin-bottom: 1em;
 }
 
 .work__project-badges-wrapper {
@@ -103,7 +104,6 @@
   
   .work__project-badges-container {
     font-size: var(--size-base);
-    margin-bottom: 1.5rem;
   }
 
   .work__project-button {
@@ -187,7 +187,6 @@
   
   .work__project-badges-container {
     font-size: var(--size-xs);
-    margin-bottom: 1em;
   }
 
   .work__project-button {

@@ -1,0 +1,28 @@
+.go-to-top {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  right: .5rem;
+  bottom: 1rem;
+  padding: .5rem;
+  border-radius: .375rem;
+  background-color: var(--color-steel-blue);
+  z-index: 1000;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(50px);
+  transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s;
+}
+
+.go-to-top.show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.go-to-top__button {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #f1f5f9;
+}
