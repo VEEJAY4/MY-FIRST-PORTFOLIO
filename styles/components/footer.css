@@ -40,16 +40,16 @@
 }
 
 /* XS - Extra Small */
-@media (min-width: 475px) {
+/* @media (min-width: 475px) {
+} */
+
+/* SM - Small */
+@media (min-width: 640px) {
   .footer__socials-item {
     width: 2.5rem;
     height: 2.5rem;
   }
 }
-
-/* SM - Small */
-/* @media (min-width: 640px) {
-} */
 
 /* MD - Medium */
 /* @media (min-width: 786px) {
