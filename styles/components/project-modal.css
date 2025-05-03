@@ -7,9 +7,14 @@
   background-color: var(--color-slate-800);
 }
 
+.light-mode .modal {
+  background-color: var(--color-dark);
+}
+
 .modal__title {
   color: var(--color-light);
   font-size: var(--size-3xl);
+  margin-bottom: 1rem;
 }
 
 .modal__project-card-container {

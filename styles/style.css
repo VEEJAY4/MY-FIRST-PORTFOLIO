@@ -9,6 +9,7 @@
   --color-steel-blue: #4682b4;
   --color-mauve: #e0b0ff;
 
+  --color-badge-light: #ffffff;
   --color-badge-emerald: #10b981;
   --color-badge-blue: #3b82f6;
   --color-badge-indigo: #6366f1;
@@ -52,6 +53,7 @@ html {
   --color-slate-600: #1e293b;
   --color-slate-800: #1e293b;
 
+  --color-badge-light: #0f172b;
   --color-badge-emerald: #064e3b;
   --color-badge-blue: #1e40af;
   --color-badge-indigo: #4c1d95;

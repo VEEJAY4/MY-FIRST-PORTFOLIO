@@ -100,17 +100,16 @@ const fancyBox = () => {
     { src: "/projects/6_LMS/11_professor-created-group.png", caption: "Professor Created Group" },
     { src: "/projects/6_LMS/12_professor-announcement.png", caption: "Professor Create Announcement" },
     { src: "/projects/6_LMS/13_professor-group.png", caption: "Professor Group" },
-    { src: "/projects/6_LMS/14_student-dashboard.png", caption: "Student Dashboard" },
-    { src: "/projects/6_LMS/15_student-join-group.png", caption: "Student Join Group" },
-    { src: "/projects/6_LMS/16_student-joined-group.png", caption: "Student Joined Group" },
-    { src: "/projects/6_LMS/17_student-create-post.png", caption: "Student Create Post" },
-    { src: "/projects/6_LMS/18_group-uploads.png", caption: "Group Upload Files" },
-    { src: "/projects/6_LMS/19_group-assessments.png", caption: "Group Assessments" },
-    { src: "/projects/6_LMS/20_admin-dashboard.png", caption: "Admin Dashboard" },
-    { src: "/projects/6_LMS/21_admin-accounts.png", caption: "Admin Manage Accounts" },
-    { src: "/projects/6_LMS/22_admin-log-events.png", caption: "Admin Manage Log Events" },
+    { src: "/projects/6_LMS/14_student-join-group.png", caption: "Student Join Group" },
+    { src: "/projects/6_LMS/15_student-joined-group.png", caption: "Student Joined Group" },
+    { src: "/projects/6_LMS/16_student-create-post.png", caption: "Student Create Post" },
+    { src: "/projects/6_LMS/17_group-uploads.png", caption: "Group Upload Files" },
+    { src: "/projects/6_LMS/18_group-assessments.png", caption: "Group Assessments" },
+    { src: "/projects/6_LMS/19_admin-dashboard.png", caption: "Admin Dashboard" },
+    { src: "/projects/6_LMS/20_admin-accounts.png", caption: "Admin Manage Accounts" },
+    { src: "/projects/6_LMS/21_admin-log-events.png", caption: "Admin Manage Log Events" },
+    { src: "/projects/6_LMS/22_admin-rooms.png", caption: "Admin Manage Rooms" },
     { src: "/projects/6_LMS/23_admin-rooms.png", caption: "Admin Manage Rooms" },
-    { src: "/projects/6_LMS/24_admin-rooms.png", caption: "Admin Manage Rooms" },
   ]
 
   const admissionKLDGalleryImages = [
@@ -133,6 +132,64 @@ const fancyBox = () => {
     { src: "/projects/7_ADMISSION-KLD/17_student-profile.png", caption: "Student Profile" },
   ]
 
+  const surisyncGalleryImages = [
+    { src: "/projects/8_SURISYNC/1_login-portal.jpeg", caption: "Login" },
+    { src: "/projects/8_SURISYNC/2_inspector-dashboard.png", caption: "Inspector Dashboard" },
+    { src: "/projects/8_SURISYNC/3_inspector-datatables.png", caption: "Inspector Inspection Form Datatables" },
+    { src: "/projects/8_SURISYNC/4_inspector-datatables.png", caption: "Inspector Inspection Form Datatables" },
+    { src: "/projects/8_SURISYNC/5_inspector-calendar.png", caption: "Inspector Calendar" },
+    { src: "/projects/8_SURISYNC/6_inspector-form.png", caption: "Inspector Inspection Form" },
+    { src: "/projects/8_SURISYNC/7_inspector-form.png", caption: "Inspector Inspection Form" },
+    { src: "/projects/8_SURISYNC/8_team-leader-dashboard.png", caption: "Team Leader Dashboard" },
+    { src: "/projects/8_SURISYNC/9_team-leader-analytics.png", caption: "Team Leader Analytics" },
+    { src: "/projects/8_SURISYNC/10_team-leader-analytics.png", caption: "Team Leader Analytics" },
+    { src: "/projects/8_SURISYNC/11_team-leader-inspections.png", caption: "Team Leader Inspection Form Datatables" },
+    { src: "/projects/8_SURISYNC/12_unit-head-analytics.png", caption: "Unit Head Analytics" },
+    { src: "/projects/8_SURISYNC/13_unit-head-analytics.png", caption: "Unit Head Analytics" },
+    { src: "/projects/8_SURISYNC/14_unit-head-inspection-list.png", caption: "Unit Head Inspection Form Datatables" },
+    { src: "/projects/8_SURISYNC/15_unit-head-book-inspections.png", caption: "Unit Head Book an Inspection" },
+    { src: "/projects/8_SURISYNC/16_unit-head-booking.png", caption: "Unit Head Booking" },
+    { src: "/projects/8_SURISYNC/17_unit-head-manage-teams.png", caption: "Unit Head Manage Teams" },
+    { src: "/projects/8_SURISYNC/18_unit-head-manage-staffs.png", caption: "Unit Head Manage Staffs" },
+    { src: "/projects/8_SURISYNC/19_unit-head-add-staff.png", caption: "Unit Head Add Staff" },
+    { src: "/projects/8_SURISYNC/20_unit-head-view-performances.png", caption: "Unit Head View Performances" },
+    { src: "/projects/8_SURISYNC/21_unit-head-view-performances.png", caption: "Unit Head View Performances" },
+  ];
+
+  const healthriteGalleryImages = [
+    { src: "/projects/9_HEALTHRITE/1_home.png", caption: "Landing Page" },
+    { src: "/projects/9_HEALTHRITE/2_login.png", caption: "Login Page" },
+    { src: "/projects/9_HEALTHRITE/3_register.png", caption: "Register Page" },
+    { src: "/projects/9_HEALTHRITE/4_patient-appointments.png", caption: "Patient Appointments" },
+    { src: "/projects/9_HEALTHRITE/5_patient-records.png", caption: "Patient Records" },
+    { src: "/projects/9_HEALTHRITE/6_patient-profile.png", caption: "Patient Profile" },
+    { src: "/projects/9_HEALTHRITE/7_staff-appointment-calendar.png", caption: "Staff Appointment Calendar" },
+    { src: "/projects/9_HEALTHRITE/8_staff-manage-appointments.png", caption: "Staff Manage Appointments" },
+    { src: "/projects/9_HEALTHRITE/9_admin-dashboard.png", caption: "Admin Dashboard" },
+    { src: "/projects/9_HEALTHRITE/10_admin-dashboard.png", caption: "Admin Dashboard" },
+    { src: "/projects/9_HEALTHRITE/11_admin-dashboard.png", caption: "Admin Dashboard" },
+    { src: "/projects/9_HEALTHRITE/12_admin-notifications.png", caption: "Admin Notifications" },
+    { src: "/projects/9_HEALTHRITE/13_admin-manage-appointments.png", caption: "Admin Manage Appointments" },
+    { src: "/projects/9_HEALTHRITE/14_admin-manage-appointments.png", caption: "Admin Manage Appointments" },
+    { src: "/projects/9_HEALTHRITE/15_admin-manage-staffs.png", caption: "Admin Manage Staffs" },
+    { src: "/projects/9_HEALTHRITE/16_admin-manage-patient-records.png", caption: "Admin Manage Patient Records" },
+  ];
+
+  const fepcGalleryImages = [
+    { src: "/projects/10_FEPC/1_hero.png", caption: "Landing Page" },
+    { src: "/projects/10_FEPC/2_registration-1.png", caption: "Personal Info" },
+    { src: "/projects/10_FEPC/3_registration-1.png", caption: "Personal Info" },
+    { src: "/projects/10_FEPC/4_registration-2.png", caption: "Educational Background" },
+    { src: "/projects/10_FEPC/5_registration-2.png", caption: "Educational Background" },
+    { src: "/projects/10_FEPC/6_registration-3.png", caption: "Requirements List" },
+    { src: "/projects/10_FEPC/7_registration-3.png", caption: "Requirements List" },
+    { src: "/projects/10_FEPC/8_registration-submitted.png", caption: "Submitted Application" },
+    { src: "/projects/10_FEPC/9_check-application-status.png", caption: "Check Application Status" },
+    { src: "/projects/10_FEPC/10_check-application-status.png", caption: "Application Details" },
+    { src: "/projects/10_FEPC/11_admin-login.png", caption: "Admin Login" },
+    { src: "/projects/10_FEPC/12_admin-dashboard.png", caption: "Admin Dashboard" },
+  ];
+
   // FEATURED GALLERY
   document.querySelectorAll([
     "[data-fancybox='featured__gallery']",
@@ -143,6 +200,9 @@ const fancyBox = () => {
     "[data-fancybox='work__ecommerce']",
     "[data-fancybox='work__lmsKLD']",
     "[data-fancybox='work__admissionKLD']",
+    "[data-fancybox='work__surisync']",
+    "[data-fancybox='work__healthrite']",
+    "[data-fancybox='work__fepc']"
   ]).forEach(link => {
     link.addEventListener("click", (event) => {
       event.preventDefault();
@@ -175,6 +235,15 @@ const fancyBox = () => {
           break;
         case "work__admissionKLD":
           images = admissionKLDGalleryImages;
+          break;
+        case "work__surisync":
+          images = surisyncGalleryImages;
+          break;
+        case "work__healthrite":
+          images = healthriteGalleryImages;
+          break;
+        case "work__fepc":
+          images = fepcGalleryImages;
           break;
       }
 
