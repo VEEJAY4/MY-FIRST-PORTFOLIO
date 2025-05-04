@@ -42,14 +42,14 @@
   display: inline-flex;
   align-items: center;
   gap: 0.25rem;
-  padding: 0.25rem 0.75rem;
-  font-size: .75rem;
+  padding: .25rem .5rem;
+  font-size: var(--size-xs);
   border-radius: 0.5rem;
 }
 
 .badge__icon {
-  width: .875rem;
-  height: .875rem;
+  width: var(--size-xs);
+  height: var(--size-xs);
 }
 
 .badge__group {
@@ -189,13 +189,13 @@
   }
 
   .badge {
+    padding: .125rem .375rem;
     font-size: .625rem;
-    padding: 0.25rem .5rem;
   }
   
   .badge__icon {
-    width: .75rem;
-    height: .75rem;
+    width: .625rem;
+    height: .625rem;
   }
 }
 
@@ -206,13 +206,13 @@
   }
 
   .badge {
-    font-size: .75rem;
-    padding: 0.25rem 0.75rem;
+    padding: .25rem .5rem;
+    font-size: var(--size-xs);
   }
   
   .badge__icon {
-    width: .875rem;
-    height: .875rem;
+    width: .75rem;
+    height: .75rem;
   }
 }
 
@@ -220,15 +220,6 @@
 @media (min-width: 1024px) {
   .container {
     width: 1024px;
-  }
-
-  .badge {
-    font-size: .875rem;
-  }
-  
-  .badge__icon {
-    width: 1rem;
-    height: 1rem;
   }
 }
 

@@ -143,7 +143,7 @@ const fancyBox = () => {
     { src: "/projects/8_SURISYNC/8_team-leader-dashboard.png", caption: "Team Leader Dashboard" },
     { src: "/projects/8_SURISYNC/9_team-leader-analytics.png", caption: "Team Leader Analytics" },
     { src: "/projects/8_SURISYNC/10_team-leader-analytics.png", caption: "Team Leader Analytics" },
-    { src: "/projects/8_SURISYNC/11_team-leader-inspections.png", caption: "Team Leader Inspection Form Datatables" },
+    { src: "/projects/8_SURISYNC/11_team-leader-inspections.png", caption: "Team Leader's Inspection Form Datatables" },
     { src: "/projects/8_SURISYNC/12_unit-head-analytics.png", caption: "Unit Head Analytics" },
     { src: "/projects/8_SURISYNC/13_unit-head-analytics.png", caption: "Unit Head Analytics" },
     { src: "/projects/8_SURISYNC/14_unit-head-inspection-list.png", caption: "Unit Head Inspection Form Datatables" },
