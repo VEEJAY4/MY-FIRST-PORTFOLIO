@@ -24,7 +24,7 @@
 
 .featured__description {
   max-width: 60ch;
-  color: var(--color-slate-600);
+  color: var(--color-slate-500);
   font-size: var(--size-sm);
   margin: 1rem 0;
 }
@@ -42,7 +42,7 @@
 
 .featured__info {
   font-size: var(--size-sm);
-  color: var(--color-slate-600);
+  color: var(--color-slate-500);
   text-transform: capitalize;
 }
 

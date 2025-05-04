@@ -18,7 +18,7 @@
 .about__description {
   max-width: 60ch;
   font-size: var(--size-sm);
-  color: var(--color-slate-600);
+  color: var(--color-slate-500);
 }
 
 .about__hr {
@@ -45,7 +45,7 @@
 
 .about__list {
   font-size: var(--size-sm);
-  color: var(--color-slate-600);
+  color: var(--color-slate-500);
 }
 
 .about__list::before {
