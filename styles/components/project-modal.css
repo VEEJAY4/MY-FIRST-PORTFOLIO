@@ -98,6 +98,10 @@
 
 /* MD - Medium */
 @media (min-width: 786px) {
+  .modal__title {
+    font-size: var(--size-3xl);
+  }
+
   .modal__project-card-container {
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   }
