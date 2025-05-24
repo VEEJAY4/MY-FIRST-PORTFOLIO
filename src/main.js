@@ -22,6 +22,7 @@ import goToTop from "./utils/go-to-top";
 import lazyLoading from "./utils/lazy-loading";
 import fancyBox from "./utils/fancy-box";
 import tippyJs from "./utils/tippy";
+import portfolioLink from "./utils/portfolio-link";
 
 mobileNav();
 darkMode();
@@ -30,3 +31,4 @@ goToTop();
 lazyLoading();
 fancyBox();
 tippyJs();
+portfolioLink();

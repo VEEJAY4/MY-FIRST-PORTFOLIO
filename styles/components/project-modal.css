@@ -8,6 +8,10 @@
   background-color: var(--color-slate-800);
 }
 
+.modal__section:not(:first-child) {
+  margin-top: 5rem;
+}
+
 .light-mode .modal {
   background-color: var(--color-dark);
 }
@@ -15,7 +19,7 @@
 .modal__title {
   color: var(--color-light);
   font-size: var(--size-xl);
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .modal__project-card-container {
@@ -42,6 +46,10 @@
   position: relative;
   overflow: hidden;
   height: 13.4rem;
+}
+
+.modal__project-card-image-wrapper a {
+  cursor: pointer;
 }
 
 .modal__project-card-image-wrapper img {

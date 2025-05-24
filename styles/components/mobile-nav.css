@@ -23,7 +23,7 @@
 }
 
 .mobile-nav__link {
-  color: var(--color-slate-600);
+  color: var(--color-slate-500);
   font-size: var(--size-sm);
   font-weight: 600;
   text-decoration: none;
@@ -44,7 +44,7 @@
   display: block;
   width: var(--size-xl);
   height: var(--size-xl);
-  color: var(--color-slate-600);
+  color: var(--color-slate-500);
 }
 
 .mobile-nav__button {

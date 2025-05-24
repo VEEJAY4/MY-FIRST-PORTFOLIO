@@ -5,10 +5,12 @@ const lazyLoading = () => {
     entries.forEach(entry => {
       if(entry.isIntersecting) {
         let image = entry.target;
-        image.src = image.dataset.src;    // Set the src attribute to the data-src value
+        image.src = image.dataset.src;    // Load the actual image by setting src from data-src
 
-        image.classList.remove("loading");
-        image.classList.add("loaded");
+        image.onload = () => {
+          image.classList.remove("loading");
+          image.classList.add("loaded");
+        };
         
         observer.unobserve(image);        // Stop observing the image once it is loaded
       }

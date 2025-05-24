@@ -176,18 +176,18 @@ const fancyBox = () => {
   ];
 
   const fepcGalleryImages = [
-    { src: "/projects/10_FEPC/1_hero.png", caption: "Landing Page" },
-    { src: "/projects/10_FEPC/2_registration-1.png", caption: "Personal Info" },
-    { src: "/projects/10_FEPC/3_registration-1.png", caption: "Personal Info" },
-    { src: "/projects/10_FEPC/4_registration-2.png", caption: "Educational Background" },
-    { src: "/projects/10_FEPC/5_registration-2.png", caption: "Educational Background" },
-    { src: "/projects/10_FEPC/6_registration-3.png", caption: "Requirements List" },
-    { src: "/projects/10_FEPC/7_registration-3.png", caption: "Requirements List" },
-    { src: "/projects/10_FEPC/8_registration-submitted.png", caption: "Submitted Application" },
-    { src: "/projects/10_FEPC/9_check-application-status.png", caption: "Check Application Status" },
-    { src: "/projects/10_FEPC/10_check-application-status.png", caption: "Application Details" },
-    { src: "/projects/10_FEPC/11_admin-login.png", caption: "Admin Login" },
-    { src: "/projects/10_FEPC/12_admin-dashboard.png", caption: "Admin Dashboard" },
+    { src: "/projects/11_FEPC/1_hero.png", caption: "Landing Page" },
+    { src: "/projects/11_FEPC/2_registration-1.png", caption: "Personal Info" },
+    { src: "/projects/11_FEPC/3_registration-1.png", caption: "Personal Info" },
+    { src: "/projects/11_FEPC/4_registration-2.png", caption: "Educational Background" },
+    { src: "/projects/11_FEPC/5_registration-2.png", caption: "Educational Background" },
+    { src: "/projects/11_FEPC/6_registration-3.png", caption: "Requirements List" },
+    { src: "/projects/11_FEPC/7_registration-3.png", caption: "Requirements List" },
+    { src: "/projects/11_FEPC/8_registration-submitted.png", caption: "Submitted Application" },
+    { src: "/projects/11_FEPC/9_check-application-status.png", caption: "Check Application Status" },
+    { src: "/projects/11_FEPC/10_check-application-status.png", caption: "Application Details" },
+    { src: "/projects/11_FEPC/11_admin-login.png", caption: "Admin Login" },
+    { src: "/projects/11_FEPC/12_admin-dashboard.png", caption: "Admin Dashboard" },
   ];
 
   // FEATURED GALLERY
