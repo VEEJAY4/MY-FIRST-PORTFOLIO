@@ -153,11 +153,16 @@
 
 .tippy-box {
   font-size: var(--size-xs);
-  background-color: #314668;
-  color: #f1f5f9;
+  background-color: var(--color-slate-800);
+  color: var(--color-badge-light);
   font-weight: bold;
   border-radius: 4px;
   padding: 6px 10px;
+}
+
+.tippy-box[data-theme~='mauve'] {
+  background-color: var(--color-mauve);
+  color: var(--color-dark);
 }
 
 /* ########################## */

@@ -1,10 +1,21 @@
 import tippy from "tippy.js";
 
+// DEFAULT TOOLTIP INITIALIZATION
 const initializeToolTip = (selector, content) => {
   tippy(selector, {
     content: content,
     theme: "translucent",
     animation: "shift-away",
+  });
+};
+
+// MAUVE THEMED TOOLTIP
+const initializeCenteredTooltip = (selector, content) => {
+  tippy(selector, {
+    content: content,
+    theme: "mauve",
+    animation: "shift-away",
+    delay: [500, 0]
   });
 };
 
@@ -17,6 +28,10 @@ const tippyJs = () => {
 
   // FEATURED PROJECT LINK
   initializeToolTip(".featured__link", "🚫 Link Unavailable");
+
+  // WORK PROJECTS
+  initializeCenteredTooltip(".image-tooltip", "Preview 🔎");
+  initializeToolTip(".github-work", "GitHub Repository");
 
   // SOCIAL LINKS
   initializeToolTip(".facebook", "Facebook");

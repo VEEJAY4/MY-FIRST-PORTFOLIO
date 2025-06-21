@@ -190,6 +190,15 @@ const fancyBox = () => {
     { src: "/projects/11_FEPC/12_admin-dashboard.png", caption: "Admin Dashboard" },
   ];
 
+  const phpCrudGalleryImages = [
+    { src: "/projects/14_PHP-CRUD/Datatables.png", caption: "Datatables" },
+    { src: "/projects/14_PHP-CRUD/Archive.png", caption: "Archive Datatables" },
+    { src: "/projects/14_PHP-CRUD/Add_Student.png", caption: "Add Student" },
+    { src: "/projects/14_PHP-CRUD/Update_Student.png", caption: "Update Student" },
+    { src: "/projects/14_PHP-CRUD/Delete_Student.png", caption: "Delete Student" },
+    { src: "/projects/14_PHP-CRUD/Restore_Student.png", caption: "Restore Student" },
+  ];
+
   // FEATURED GALLERY
   document.querySelectorAll([
     "[data-fancybox='featured__gallery']",
@@ -202,7 +211,8 @@ const fancyBox = () => {
     "[data-fancybox='work__admissionKLD']",
     "[data-fancybox='work__surisync']",
     "[data-fancybox='work__healthrite']",
-    "[data-fancybox='work__fepc']"
+    "[data-fancybox='work__fepc']",
+    "[data-fancybox='work__php-crud']"
   ]).forEach(link => {
     link.addEventListener("click", (event) => {
       event.preventDefault();
@@ -244,6 +254,9 @@ const fancyBox = () => {
           break;
         case "work__fepc":
           images = fepcGalleryImages;
+          break;
+        case "work__php-crud":
+          images = phpCrudGalleryImages;
           break;
       }
 
