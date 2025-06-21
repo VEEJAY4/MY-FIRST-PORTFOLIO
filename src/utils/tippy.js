@@ -11,11 +11,14 @@ const initializeToolTip = (selector, content) => {
 
 // MAUVE THEMED TOOLTIP
 const initializeCenteredTooltip = (selector, content) => {
+  const isMobile = window.innerWidth <= 640; // 640px (Small Devices)
+
   tippy(selector, {
     content: content,
     theme: "mauve",
     animation: "shift-away",
-    delay: [500, 0]
+    delay: [500, 0],
+    trigger: isMobile ? "manual" : "mouseenter focus"
   });
 };
 

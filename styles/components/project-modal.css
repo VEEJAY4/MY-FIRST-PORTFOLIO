@@ -101,7 +101,7 @@
   color: var(--color-slate-400); 
   letter-spacing: 0.01em;
   line-height: 1.2;
-  margin-bottom: 1rem;
+  margin-bottom: .5rem;
 }
 
 .modal__project-links {
@@ -111,8 +111,8 @@
 }
 
 .modal__project-links a {
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 2rem;
+  height: 2rem;
 }
 
 /* XS - Extra Small */
@@ -120,8 +120,16 @@
 } */
 
 /* SM - Small */
-/* @media (min-width: 640px) {
-} */
+@media (min-width: 640px) {
+  .modal__project-card-description {
+    margin-bottom: 1rem;
+  }
+
+  .modal__project-links a {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
 
 /* MD - Medium */
 @media (min-width: 786px) {
